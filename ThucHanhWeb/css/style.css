@@ -1,0 +1,245 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Tahoma;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+}
+.active{
+	display: block !important;
+}
+.text_right{
+	text-align: right;
+}
+.text_center{
+	text-align: center;
+}
+
+#container{
+	width: 80%;
+	height: auto;
+}
+#header{
+	width: 100%;
+	height: auto;
+}
+#banner{
+	width: 100%;
+	height: auto;
+}
+#banner>img{
+	width: 100%;
+	height: auto;
+}
+#menu_top{
+	width: 100%;
+	height: 38px;
+	background: #680000;
+}
+#menu_top ul{
+	width: 100%;
+}
+#menu_top>ul>li{
+	float: left;
+	padding: 9px 15px;
+}
+#menu_top a{
+	color: white;
+}
+
+
+#main{
+	width: 100%;
+	height: auto;
+}
+#page_home{
+	width: 100%;
+	height: 768px;
+	background: #cccccc;
+	clear: both;
+}
+#left_main{
+	background: #fecccb;
+	width: 24%;
+	float: left;
+	height: auto;
+	padding-bottom: 20px;
+	border-top: 2px solid white;
+}
+#right_main>p, #left_main>p{
+	font-weight: bold;
+	font-family: Timenewroman;
+}
+#left_main>p{
+	text-align: center;
+	padding: 15px 0 8px 0;
+	background-image: url('../images/tt1.gif');
+	color: white;
+	font-size: 22px;
+	background-size: cover;
+}
+.check_item{
+	padding: 15px 0;
+    height: 15px;
+    clear: both;
+}
+.check_item>div{
+	width: 20px;
+	height: 20px;
+	background: white;
+	float: left;
+	margin: 0 10px;
+}
+.check_item>div>img{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.check_item>p{
+	float: left;
+	color: #5c2d75;
+	font-weight: bold;
+}
+
+#right_main{
+	width: 76%;
+	float: left;
+	height: 100%;
+}
+#right_main>p{
+	font-size: 25px;
+	background: white;
+	text-align: center;
+	padding: 5px 0;
+}
+#list_product{
+	width: 100%;
+	height: auto;
+}
+.product_item{
+	width: 22%;
+	float: left;
+	margin: 6px;
+	background: #fffdcc;
+	padding: 5px;
+}
+.product_item img{
+	width: 100%;
+	background: white;
+	height: 165px;
+}
+.product_item p{
+	text-align: center;
+}
+.product_name{
+	font-weight: bold;
+	padding: 5px 0;
+}
+.product_qty{
+	color: orange;
+}
+
+#footer{
+	width: 100%;
+	height: 96px;
+	clear: both;
+	background: #680000;
+	padding-top: 20px;
+}
+#footer p{
+	color: white;
+	text-align: center;
+}
+#company{
+	font-size: 21px;
+}
+#address_company{
+	font-size: 15px;
+}
+
+#menu_top li:hover{
+	background: orange;
+}
+
+/*CSS - insert product form*/
+
+#page_insert_product{
+	width: 100%;
+	height: 1000px;
+	background: #cccccc;
+	color: white;
+	padding-top: 42px;
+}
+#page_insert_product p, #page_contact p{
+	font-family: Timenewroman;
+	font-weight: bold;
+}
+#form_insert{
+	width: 76%;
+	height: 460px;
+	background: #980000;
+}
+#form_insert>p{
+	text-align: center;
+	padding: 12px 0;
+	font-size: 25px;
+}
+.form_item{
+	clear: both;
+}
+.form_item p, .form_item input{
+	float: left;
+}
+.form_item p{
+	width: 27%;
+	padding: 6px 16px;
+	font-size: 18px;
+}
+.form_item input, .form_item textarea, .form_item select{
+	margin: 6px 16px;
+	padding: 3px;
+}
+.form_item button{
+	padding: 3px 5px;
+}
+#last{
+	padding: 5px 33%;
+}
+#table_product{
+	width: 100%;
+	height: auto;
+	margin-top: 32px;
+	color: black;
+}
+#table_product table{
+	width: 76%;
+}
+th, td{
+	padding: 5px 8px;
+	word-wrap: break-word;
+}
+#page_contact{
+	width: 100%;
+	height: 500px;
+	background: #cccccc;
+	color: white;
+	padding-top: 42px;
+}
+
+#page_info{
+	width: 100%;
+	height: 500px;
+	background: #cccccc;
+	padding-top: 42px;
+}
+#page_guest{
+	width: 100%;
+	height: 500px;
+	background: #cccccc;
+	padding-top: 42px;
+}
